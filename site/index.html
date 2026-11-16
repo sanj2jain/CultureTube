@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CultureTube</title>
+<meta name="description" content="A curated library of videos on dance, music, arts, culture, anthropology and the moving body.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c2410c'/><path d='M12 9l12 7-12 7z' fill='white'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <button id="menuBtn" class="icon-btn" aria-label="Browse categories">☰</button>
+  <a href="#" class="brand" id="home"><span class="logo">▶</span>CultureTube</a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search videos, channels, styles…  ( / )" autocomplete="off" aria-label="Search">
+  </div>
+  <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+</header>
+
+<div class="layout">
+  <nav id="side" class="side" aria-label="Categories"></nav>
+  <div id="scrim" class="scrim"></div>
+
+  <main>
+    <div class="crumbs" id="crumbs"></div>
+    <div class="controls">
+      <div class="chips" id="facetChips" role="group" aria-label="Type"></div>
+      <div class="right-controls">
+        <select id="dur" aria-label="Duration">
+          <option value="">Any length</option>
+          <option value="s">Under 10 min</option>
+          <option value="m">10–30 min</option>
+          <option value="l">30–60 min</option>
+          <option value="x">Over 1 hour</option>
+        </select>
+        <select id="sort" aria-label="Sort">
+          <option value="curated">Curated first</option>
+          <option value="shuffle">Shuffle</option>
+          <option value="long">Longest</option>
+          <option value="short">Shortest</option>
+          <option value="channel">Channel A–Z</option>
+        </select>
+        <label class="toggle"><input type="checkbox" id="curOnly"> Curated only</label>
+      </div>
+    </div>
+    <div class="topics" id="topics"></div>
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+    <div id="sentinel" class="sentinel"></div>
+    <p class="empty" id="empty" hidden>No videos match. Try clearing a filter.</p>
+  </main>
+</div>
+
+<dialog id="player" aria-label="Video player">
+  <div class="player-inner">
+    <div class="frame"><iframe id="frame" title="YouTube video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
+    <div class="player-meta">
+      <div>
+        <h2 id="pTitle"></h2>
+        <p id="pSub"></p>
+      </div>
+      <div class="player-actions">
+        <a id="pYT" target="_blank" rel="noopener">Open on YouTube ↗</a>
+        <button id="pClose" class="icon-btn" aria-label="Close">✕</button>
+      </div>
+    </div>
+    <div id="pRelated" class="related"></div>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

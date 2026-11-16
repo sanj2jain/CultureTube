@@ -1,0 +1,32 @@
+# Video IDs or exact channel names to always exclude (one per line, # for comments).
+# Word collisions found in review (topic word used in another sense)
+KlFCmHvWxlU   # "locking in" productivity
+9KHaJMcfLOY   # prison documentary (Locking)
+vHiBJMkdSK0   # prison documentary (Locking)
+0cnDdnopZIg   # kids' song (Animation dance)
+ynBENQJBQbE   # character animation (Animation dance)
+Al_k9hmd4ws   # character animation (Animation dance)
+M1F0lBnsnkE   # movie-stars mashup (Funk)
+yoEpGeoGWOk   # mythology "Funk Lecture"
+JyiYE1AQGAg   # mythology "Funk Lecture"
+NnbpH16zX8c   # biogeography "Funk Lecture"
+6DdGRYvOeVE   # biogeography "Funk Lecture"
+LK-hszYhBFU   # biogeography "Funk Lecture"
+5IwZjbbpXNE   # biogeography "Funk Lecture"
+_OFMkCeP6ok   # pop duet (Soul music)
+E685oxyVPaM   # talent-show compilation (Soul music)
+8fKKiaSLLEY   # musical, not opera
+mAHC1wmmrok   # spiritual talk (Dada)
+lo0X2ZdElQ4   # spiritual talk (Dada)
+F9TL-yOFifA   # misfiled under Dada
+CCroXERAaFI   # film "Mask" behind the scenes
+QtxGLY_sIVw   # semiconductor lithography (Mask making)
+OAXNBKuwNlM   # semiconductor lithography (Mask making)
+ZX5e0KQ52lI   # semiconductor lithography (Mask making)
+9gSsK9AzviM   # auditory masking
+LG3DKM4JXDM   # Illustrator class
+NrY0oblmQMU   # "Medicine" line dance
+tvZHO_AY010   # "Medicine" line dance
+LMdW_pSFpB0   # "Medicine" line dance
+L1SacHJ_ElA   # "Medicine" line dance
+D7ztZ_qhx5Q   # music mix (Shuffle dance)
